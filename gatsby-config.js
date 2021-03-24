@@ -2,5 +2,12 @@ module.exports = {
   siteMetadata: {
     title: "dogfoodweb",
   },
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "G-C7D4DJ4HF1",
+      },
+    },
+  ],
 };
