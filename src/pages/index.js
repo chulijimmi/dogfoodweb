@@ -1,4 +1,5 @@
 import * as React from "react";
+import { graphql } from "gatsby";
 
 // styles
 const pageStyles = {
@@ -126,7 +127,8 @@ const links = [
 ];
 
 // markup
-const IndexPage = () => {
+const IndexPage = (props) => {
+  console.log("props indexPage", props);
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
@@ -182,3 +184,18 @@ const IndexPage = () => {
 };
 
 export default IndexPage;
+
+export const query = graphql`
+  {
+    awsappsync {
+      listProductModels(limit: 10) {
+        items {
+          id
+          productCode
+          productName
+        }
+        nextToken
+      }
+    }
+  }
+`;
