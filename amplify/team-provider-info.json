@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dogfoodweb-dev-170732-authRole",
+      "UnauthRoleArn": "arn:aws:iam::756508615940:role/amplify-dogfoodweb-dev-170732-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::756508615940:role/amplify-dogfoodweb-dev-170732-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-dogfoodweb-dev-170732-deployment",
+      "UnauthRoleName": "amplify-dogfoodweb-dev-170732-unauthRole",
+      "StackName": "amplify-dogfoodweb-dev-170732",
+      "StackId": "arn:aws:cloudformation:us-east-1:756508615940:stack/amplify-dogfoodweb-dev-170732/370f3d40-906e-11eb-8650-0a637f9cba95",
+      "AmplifyAppId": "dohwgpnq383vi"
+    }
+  }
+}
