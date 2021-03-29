@@ -17,7 +17,7 @@ module.exports = {
         // This is the field under which it's accessible
         fieldName: "awsappsync",
         // URL to query from
-        url: `https://lhrwinbdr5gmhiw3wtu2gc7say.appsync-api.us-east-1.amazonaws.com/graphql`,
+        url: `lhrwinbdr5gmhiw3wtu2gc7say.appsync-api.us-east-1.amazonaws.com/graphql`,
         headers: {
           "x-api-key": `da2-st736lxu4vcv3etzu7wnunbdzi`,
         },
